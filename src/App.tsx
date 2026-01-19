@@ -4,7 +4,7 @@ import { AppRoutes } from './routes';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/superadmin">
       <ThemeProvider>
         <AuthProvider>
           <AppRoutes />
